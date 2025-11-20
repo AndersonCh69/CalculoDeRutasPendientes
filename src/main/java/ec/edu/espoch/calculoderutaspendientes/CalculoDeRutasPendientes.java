@@ -8,7 +8,7 @@
 
          Scanner sc = new Scanner(System.in);
 
-        System.out.println("=== ANALISIS DE PENDIENTES ===");
+        System.out.println(" ANALISIS DE PENDIENTES ");
 
         // --- Ingreso de datos ---
         System.out.print("Latitud inicial: ");
@@ -36,7 +36,7 @@
         double pendiente = (elevFin - elevIni) / distanciaKm;
 
         // --- Mostrar resultado ---
-        System.out.println("\n=== RESULTADOS ===");
+        System.out.println(" RESULTADOS ");
         System.out.println("Pendiente calculada: " + pendiente);
 
         // Pendiente mínima = el valor más bajo  
