@@ -12,7 +12,7 @@ public class CalculoDeRutasPendientes {
         
         LecturaDatos lectura = new LecturaDatos();
         
-        System.out.print("¿Cuantos puntos tiene la ruta?: ");
+        System.out.print("Cuantos puntos tiene la ruta?: ");
         int numPuntos = lectura.leerEntero();
 
         if (numPuntos < 2) {
