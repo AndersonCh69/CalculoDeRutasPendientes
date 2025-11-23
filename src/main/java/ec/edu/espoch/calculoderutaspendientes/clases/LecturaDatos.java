@@ -10,6 +10,10 @@ public class LecturaDatos {
         this.sc.useLocale(java.util.Locale.US);
     }
 
+    public int leerEntero() {
+        return sc.nextInt();
+    }
+
     public void ingresarElevaciones(Datos datos, int numPuntos) {
         for (int i = 0; i < numPuntos; i++) {
             System.out.print("Elevacion en punto " + (i + 1) + " (m): ");
